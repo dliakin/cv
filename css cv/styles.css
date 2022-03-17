@@ -29,10 +29,6 @@ a:active {
 a:visited {
   color: grey;
 }
-.container {
-  max-width: 750px;
-  padding-top: 30px;
-}
 
 .avatar {
   width: 310px;
@@ -68,6 +64,12 @@ a:visited {
   text-decoration: none;
 }
 
+.container {
+  max-width: 750px;
+  padding-top: 30px;
+  margin: auto;
+}
+
 .bg-blue {
   background: #dce2ff;
 }
@@ -86,7 +88,7 @@ a:visited {
 
 .card {
   padding: 15px 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   border-radius: 20px;
 }
 
