@@ -82,3 +82,47 @@ const allBudget = people
   .filter((person) => person.budget > 2000)
   .reduce((acc, person) => (acc += person.budget), 0);
 console.log(allBudget);
+
+// const cars = [
+//   "Toyota",
+//   "Honda",
+//   "Chevrolet",
+//   "Ford",
+//   "Honda",
+//   "Chevrolet",
+//   "Jeep",
+//   "Jeep",
+// ];
+
+// const carsObj = { ...cars };
+// console.log(carsObj); // {'0': 'Toyota', '1': 'Honda', '2': 'Chevrolet', '3': 'Ford', '4': 'Honda', '5': 'Chevrolet', '6': 'Jeep', '7': 'Jeep'}
+
+// cars.length = 0;
+// console.log(cars); //returns []
+
+// const uniqueCars = Array.from(new Set(cars));
+// console.log(uniqueCars); // [ 'Toyota', 'Honda', 'Chevrolet', 'Ford', 'Jeep' ]
+
+// //Using spread syntax
+// const uniqueCars2 = [...new Set(cars)];
+// console.log(uniqueCars); // [ 'Toyota', 'Honda', 'Chevrolet', 'Ford', 'Jeep' ]
+
+// const newArray = Array(4).fill("1");
+// console.log(newArray); // [ '1', '1', '1', '1' ]
+
+// const meat = ["pork", "beef", "chicken"];
+// const vegetables = ["potato", "tomato", "cucumber"];
+
+// const food = [...meat, ...vegetables];
+// const food2 = meat.concat(vegetables);
+
+// console.log(food); //[ 'pork', 'beef', 'chicken', 'potato', 'tomato', 'cucumber' ]
+// console.log(food2); //[ 'pork', 'beef', 'chicken', 'potato', 'tomato', 'cucumber' ]
+
+// const numOne = [0, 2, 4, 6, 8, 8];
+// const numTwo = [1, 2, 3, 4, 5, 8];
+
+// const intersection = [...new Set(numOne)].filter((item) =>
+//   numTwo.includes(item)
+// );
+// console.log(intersection); //[ 2, 4, 8 ]
