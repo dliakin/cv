@@ -78,14 +78,19 @@ console.log(num1 === num2); //false Use this
 
 const isReady = true;
 
-// if (isReady) {
-//   console.log("Ready");
-// } else {
-//   console.log("Not ready");
-// }
+//Classic condition
+if (isReady) {
+  console.log("Ready");
+} else {
+  console.log("Not ready");
+}
 
-//Ternary
+//Change with ternary operator
 isReady ? console.log("Ready") : console.log("Not ready");
+
+// isReady - condition
+// ? if the condition is truthy
+// : if the condition is falsy
 
 //7. Functions
 
