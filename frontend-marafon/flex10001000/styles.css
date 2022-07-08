@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content:left; */
+  /* align-items: left; */
+  /* align-content: space-around; */
+  max-width: 1000px;
+}
+
+.square {
+  width: 6px;
+  height: 6px;
+  background: #4baae0;
+  /* border: 1px solid white */
+  margin: 2px;
+  /* box-shadow: 0 0 2px #000; */
+  /* transition: 5s ease; */
+}
+
+.square img {
+  align-self: baseline;
+}
+
+.square16 {
+  width: 256px;
+  height: 256px;
+  background: #1ec50f;
+  /* border: 1px solid white */
+  margin: 0px;
+  /* box-shadow: 0 0 2px #000; */
+  /* transition: 5s ease; */
+}
+
+.square:hover {
+  /* transition-duration: 0s; */
+}
